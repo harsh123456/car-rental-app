@@ -9,6 +9,7 @@ import { TopCars } from "./topCars";
 import { Navbar } from "../../components/navbar/index";
 import { BookCard } from "../../components/bookCard/index";
 import { Marginer } from "../../components/marginer/index";
+import { Footer } from "../../components/footer";
 
 const PageContainer = styled.div`
     ${tw`
@@ -34,6 +35,7 @@ export function HomePage() {
             <AboutUs />
             <Marginer direction="vertical" margin="4em" />
             <TopCars />
+            <Footer />
         </PageContainer>
     );    
 }
